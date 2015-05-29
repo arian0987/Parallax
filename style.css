@@ -1,0 +1,255 @@
+body {
+	margin: 0px;
+	background-color: #000;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+h1#load-header {
+	height: 100%;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 32px;
+	margin-bottom: 3px;
+	color:#A4D3EE;
+}
+div#front-char {
+	position:absolute;
+	background-image:url(images/db-blink.gif);
+	height: 300px;
+	width: 298px;
+	left: 650px;
+	bottom: 0px;
+}
+div#Scene {
+	position: fixed;
+	width: 100%;
+	height: 700px;
+	margin-top: -350px;
+	top: 50%;
+	}
+div#sky-bg {
+	background: url(images/sky-bg.png);
+	width: 3528px;
+	}
+div#land-bg {
+	background: url(images/green-bg.png) left bottom;
+	width: 4368px;
+	}
+div#view-borders {
+	background: url(images/view-borders.png) left bottom;
+	width: 4368px;
+	}
+
+div#dbow {
+	position:absolute;
+	background-image:url(images/dbow-spritesheet.png);
+	width:250px;
+	height:190px;
+	top:380px;
+	left:300px;
+}
+div#msg_container4 {
+	position:absolute;
+	background-image:url(images/intro-msg.png);
+	width:400px;
+	height:250px;
+	top:320px;
+}
+div#msg_container3 {
+	position:absolute;
+	background-image:url(images/intro-msg.png);
+	width:400px;
+	height:250px;
+	top:200px;
+}
+div#msg_container2 {
+	position:absolute;
+	background-image:url(images/msg_container2.png);
+	width:432px;
+	height:270px;
+	top:100px;
+}
+div#msg_container {
+	position:absolute;
+	background-image:url(images/intro-msg.png);
+	width:400px;
+	height:250px;
+	top:200px;
+}
+div#bird {
+	position: absolute;
+	background-image:url(images/bird-spritesheet.png);
+	width:60px;
+	height:60px;
+	top:100px;
+}
+div#puppy {
+	position: absolute;
+	background-image:url(images/puppy.gif);
+	width:62px;
+	height:64px;
+	top:440px;
+}
+div#trees-passing1 {
+	position: absolute;
+	background-image:url(images/trees-passing1.png);
+	width:689px;
+	height:689px;
+	left:400px;
+}
+div#trees-passing4 {
+	position: absolute;
+	background-image:url(images/trees-passing4.png);
+	width:750px;
+	height:750px;
+	left: 900px;
+}
+div#sun {
+	position:absolute;
+	background:url(images/sun.png);
+	width:194px;
+	height:194px;
+	left:180px;
+}
+div#moving-cloud {
+	position: absolute;
+	background-image:url(images/moving-cloud.png);
+	width:900px;
+	height:270px;
+	top:0px;
+	left:1500px;
+}
+div>p.msg {
+	text-align: center;
+	font-family: 'Gungsuh', sans-serif;
+	font-size: 14px;
+	line-height: 1.8;
+}
+div#slidescene1 {
+	background-image: url(images/db-look.gif);
+	height: 400px;
+	width: 944px;
+	top:100px;
+	border: 1px solid #000;
+	border-radius: 3px;
+}
+div#slidescene2 {
+	background-image: url(images/sitting-karl.gif);
+	height: 400px;
+	width: 944px;
+	top:250px;
+	border: 1px solid #000;
+	border-radius: 3px;
+}
+div#slidescene3 {
+	background-image: url(images/horse-ride.jpg);
+	height: 400px;
+	width: 944px;
+	top:250px;
+	border: 1px solid #000;
+	border-radius: 3px;
+}
+div#slidescene4 {
+	background-image: url(images/at-the-bell.jpg);
+	height: 400px;
+	width: 944px;
+	top:250px;
+	border: 1px solid #000;
+	border-radius: 3px;
+}
+div#slidescene5 {
+	background-image: url(images/hold-hands.gif);
+	height: 275px;
+	width: 490px;
+	top: 250px;
+	left: 450px;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	-webkit-box-shadow: 5px 5px 25px rgba(255,255,255,1);
+	-ms-box-shadow: 5px 5px 25px rgba(255,255,255,1);
+	box-shadow: 5px 5px 25px rgba(255,255,255,1);
+}
+div#story2 {
+	background-color:#1E1E1E;
+	height: 100%;
+	width: 100%;
+}
+div#cracking {
+	position:absolute;
+	background-image:url(images/cracking-sprite.jpg);
+	width:1366px;
+	height:768px;
+	top:0px;
+	left:0px;
+	display: none;
+	opacity: 0.5;
+}
+div#broken_glass {
+	position:absolute;
+	background-image:url(images/broken-glass-sprite.jpg);
+	width:1366px;
+	height:768px;
+	top:0px;
+	left:0px;
+	display: none;
+}
+.parallax-layer {
+	position: absolute;
+	height: 700px;
+	background-repeat: no-repeat;
+	}
+.school {
+	position:absolute;
+	width:600px;
+	height:523px;
+	top:100px;
+	}
+.slide-1 { 
+	background-image: url('images/bg.jpg');
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+	background-size: cover;
+}
+
+.content {
+	color: #fff;
+	text-align: center;
+	font-size: 400%;
+	font-weight: bold;
+	text-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+.october-leaf {
+	position: absolute;
+	background-color: transparent;
+	background-image: url(images/green-leaves.png);
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	transform: translateZ(0);
+}
+.entry-header {
+	text-align: center;
+	margin: 200px auto 50px auto;
+	width: 80%;
+	max-width: 978px;
+	position: relative;
+	z-index: 10001;
+}
+#music-logo {
+	position: fixed;
+	background: url(images/audio-on.png) no-repeat;
+	display: block;
+	height: 70px;
+	width: 70px;
+	z-index: 2;
+	top:0px;
+	right: 0px;
+}
+.message {
+	position: absolute;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 32px;
+	color:#A4D3EE;
+}
